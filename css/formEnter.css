@@ -1,0 +1,149 @@
+.formEnter{
+    width: 755px;
+    height: 432px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+}
+.Enter-form{
+    margin-top: 30px;
+    margin-left: 42px;
+    width: 343px;
+    height: 368px;
+    border-right: 1px solid #dbdbdb;
+}
+.formEnter-title{
+    margin-bottom: 28px;
+    color: #3b3b3b;
+    font-size: 24px;
+    font-family: "Roboto Bold";
+}
+.formEnter-form{
+    display: flex;
+    flex-flow: column;
+}
+.formEnter-form label{
+    color: #3b3b3b;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+.formEnter-form input{
+    border: 1px solid #d2d2d2;
+    cursor: pointer;
+    outline: #818181;
+}
+.input-1{
+    margin-top: 10px;
+    margin-bottom: 19px;
+    width: 299px;
+    height: 40px;
+
+}
+.input-2{
+    margin-top: 10px;
+    margin-bottom: 28px;
+    width: 299px;
+    height: 40px;
+
+}
+.formEnter-block{
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+}
+.formEnter-form span{
+    margin-left: 2px;
+    color: #3b3b3b;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+.formEnter-thint{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 27px;
+}
+.formEnter-thint a{
+    color: #3b3b3b;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+    text-decoration: none;
+    border-bottom: 1px solid #3b3b3b;
+}
+.formEnter-thint a{
+  margin-right: 20px;
+}
+.formEnter-form input::placeholder{
+    color: #9c9c9c;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+    padding-left: 12px;
+}
+.formEnter-form button{
+    width: 210px;
+    height: 50px;
+    color: white;
+    background-color: #afb9c6;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+    border-style: none;
+    outline: none;
+}
+
+
+.Enter-Web{
+    margin-left: 40px;
+}
+.formEnter-title2{
+    margin: 31px 0 45px -1.5px;
+    color: #3b3b3b;
+    font-size: 24px;
+    font-family: "Roboto Bold";
+}
+.Enter-Web_btn{
+    width: 293px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Enter-Web_btn span{
+    margin-left: 15px;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+.Enter-Web_btn{
+    margin-bottom: 24px;
+}
+.btn-01{
+    background-color: #3b5998;
+    padding-right: 16px;
+}
+.btn-02{
+    background-color: #41abe1;
+    padding-right: 3px;
+}
+.btn-03{
+    background-color: #ea4335;
+    padding-left: 4px;
+}
+.Enter-Web_btn:hover{
+    background-color: #717381;
+}
+.btn-03 svg{
+    fill: white;
+}
+.btn-03 svg:hover .fill-4{
+    fill: #EB4335;
+}
+.btn-03 svg:hover .fill-3{
+    fill: #FBBC05; 
+}
+.btn-03 svg:hover .fill-2{
+    fill: #34A853; 
+}
+.btn-03 svg:hover .fill-1{
+    fill: #4285F4; 
+}

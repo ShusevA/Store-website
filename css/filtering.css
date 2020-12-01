@@ -1,0 +1,60 @@
+.filtering-buz{
+    width: 1920px;
+}
+.filtering{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1360px;
+    margin: 0 auto;
+}
+.filtering-elem{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.menu{
+    width: 327px;
+    height: 58px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #ff8500;
+}
+.menu-hamburger{
+    width: 64px;
+    height: 58px;
+    cursor: pointer;
+}
+.menu-text{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto Bold";
+    margin-left: 20px;
+}
+.hamburger{
+    margin: 0 auto;
+    margin-top: 29px;
+}
+.menu-hamburger:hover{
+    background-color: #db7200;
+}
+.menu:hover{
+    background: linear-gradient(to right, #ff8e13, #ffae00);
+
+}
+.menu-hamburger.active{
+    background-color: #db7200;
+}
+.menu-hamburger.active3{
+    background-color: #db7200;
+}
+
+.menu.active2{
+    background: linear-gradient(to right, #ff8e13, #ffae00);
+}
+.menu-hidden{
+    display: none;
+}
+.menu-hidden.show{
+    display: block;
+}

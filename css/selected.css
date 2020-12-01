@@ -1,0 +1,292 @@
+.selected{
+    display: flex;
+    flex-flow: row, nowrap;
+    width: 1360px;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+.selected-ul{
+    margin-top: -11px;
+}
+.selected-ul li{
+    width: 326px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    text-transform: uppercase;
+    border: 1px solid #f8f8f8e7;
+    color: #3b3b3b;
+    font-size: 16px;
+    font-family: "Roboto Bold";
+}
+.selected-ul li:last-child{
+    margin-top: -2px;
+}
+.selected-ul li:nth-child(6){
+    margin-top: -2px;
+}
+
+.selected-ul li::after{
+    content: ">";
+    margin-left: 162px;
+    color: #c0c4d8;
+}
+.selected-ul li:hover{
+    border-bottom: 1.5px solid black;
+}
+
+.selected-form{
+    width: 1015px;
+    height: 375px;
+    background-color: #696969;
+    margin-left: 19px;
+
+}
+.selected-form-elem{
+    width: auto;
+    height: 74px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    list-style-type: none;
+    background-color: #606a76;
+
+}
+.selected-form-elem li{
+    width: 184px;
+    height: 74px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #606a76;
+}
+.selected-form-elem li:first-child{
+    margin-left: 20px;
+    margin-right: 28px;
+    border-bottom: 2px solid #ffc925;
+}
+.mel {
+    margin-left: 18px;
+    margin-right: -18px;
+}
+.selected-form-elem li:hover{
+    border-bottom: 2px solid #ffc925;
+}
+
+.selected-form-elem span{
+    font-size: 18px;
+    font-family: "Roboto Bold";
+    color: white;
+    margin-left: 12px;
+}
+.selected-form-checked{
+    width: 282px;
+    height: 44px;
+    margin: 24px 36px;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    color: #9f9f9f;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+.selected-form-checked_1{
+    width: 129px;
+    height: 36px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    padding-right: 0.1px;
+}
+.selected-form-checked_2{
+    width: 142px;
+    height: 36px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 19px;
+
+}
+.selected-form-checked button:hover,
+.selected-form-checked button:active{
+    background-color: #ff8900;
+    color: white;
+}
+.selected-form-checked button:focus{
+    background-color: #ff8900;
+    color: white;
+}
+.selected-form-checked_2.active{
+    background-color: #ff8900;
+    color: white;
+}
+.selected-form-checked_1.active{
+    background-color: #ff8900;
+    color: white;
+}
+
+.hiddenElem{
+    display: none;
+}
+.hiddenElem.activ{
+    display: block;
+}
+.q{
+    margin-right: 20px;
+}
+
+
+
+.selected-form_form{
+    width: 948px;
+    height: auto;
+    margin-left: 35px;
+}
+.selected-form_select{
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    cursor: pointer;
+}
+.elements_select{
+    width: 222px;
+    height: 42px;
+    background-color: #696969;
+    border-bottom: 1px solid white;
+}
+.elements_select + .elements_select{
+    margin-left: 20px;
+}
+.selected-form_select + .selected-form_select{
+    margin-top: 24px;
+}
+.elements_select select{
+    width: 222px;
+    height: 40px;
+    color: #9c9c9c;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+    padding-left: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+.elements_select::after {
+    content: "▼";
+    color: #ff8500;
+    position: absolute;
+    font-size: 10px;
+    margin-left: -35px;
+    margin-top: 15px;
+}
+.elements_select:hover{
+    border-bottom: 1px solid #ff8500;
+}
+/*  */
+.elements_selectAll{
+    width: 222px;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #696969;
+}
+.elements_selectAll span{
+    width: 61px;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+.elements_selectPrice{
+    width: 74px;
+    height: 42px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.elements_selectPrice input{
+    width: 74px;
+    height: 39px;
+    background-color: white;
+    color: #3b3b3b;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+.elements_selectSum{
+    width: 74px;
+    height: 42px;
+    margin-left: 13px;
+    border-bottom: 1px solid white;
+}
+.elements_selectSum p{
+    width: 74px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #9c9c9c;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+.prices:hover{
+    border-bottom: 1px solid #ff8500;
+}
+
+.selected-form_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+.selected-form_bottom button:first-child{
+    width: 210px;
+    height: 50px;
+    font-size: 14px;
+    border-style: none;
+    font-family: "Roboto Regular";
+    color: white;
+    background-color: #ff4800;
+    cursor: pointer;
+}
+.selected-form_bottom button:first-child::before{
+    content: "×";
+    font-size: 25px;
+    margin-right: 10px;
+    vertical-align: -4px;
+}
+button.selected-form_bottom1:hover{
+    background-color: #717381;
+}
+
+.selected-form_bottom button:last-child{
+    margin-right: 2px;
+    width: 210px;
+    height: 50px;
+    font-size: 14px;
+    border-style: none;
+    font-family: "Roboto Regular";
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff8500, #ffae00);
+
+}
+button.selected-form_bottom2:hover{
+    background: #343744;
+
+}

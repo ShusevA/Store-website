@@ -1,0 +1,130 @@
+.phone-buz{
+    width: 1920px;
+}
+.phone{
+    width: 1360px;
+    height: 125px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -1px;
+}
+.phone-title{
+    width: 339px;
+    margin-right: 21px;
+
+}
+.phone-tel{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.tels{
+    font-family: "Roboto Bold Italic";
+    font-size: 15px;
+}
+.tel-1{
+    margin-left: 0px;
+}
+.tel-2{
+    margin-left: 48px;
+    margin-right: 52px;
+}
+.phone-date{
+    width: 195px;
+    height: 50px;
+    background-color: #ff8900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-button{
+    text-transform: uppercase;
+    color: #f5f5f5;
+    background-color: #ff8900;
+    border-style: none;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+}
+.phone-button::before{
+    content: url(../img/03.png);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.phone-img1{
+    width: 115px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    margin-left: 95px;
+}
+.phone-img2{
+    width: 115px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+}
+.phone-img3{
+    /* margin-top: -26px; */
+    width: 115px;
+    text-align: center;
+}
+.Hid{
+    margin-top: -20px;
+    width: 20px;
+    height: 14px;
+    margin-left: 49.5px;
+    margin-bottom: 9px;
+    color: white;
+    font-size: 11px;
+    font-family: "Roboto Regular";
+    background-color: #ff8500;
+    box-shadow: 0 5px 8px #ff8500;
+}
+
+.phone-text{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: "Roboto Regular";
+}
+.phone-button.show::before{
+    content: url(../img/030.png);
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.tellShow {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .close-bloc{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    margin-left: 417px;
+  }
+  .close{
+    position: relative;
+    width: 27px;
+    height: 1px;
+    background-color: black;
+    transform: rotate(45deg);
+  }
+  .close::before{
+    position: absolute;
+    content: "";
+    width: 27px;
+    height: 1px;
+    background-color: black;
+    transform: rotate(90deg);
+}

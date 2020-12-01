@@ -1,0 +1,225 @@
+.itog-buz{
+    width: 1920px;
+    background-color: #696969;
+}
+.itog{
+    width: 1360px;
+    margin: 0 auto;
+}
+.itog-1{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.itog-1-B1{
+    margin-top: 36px;
+    width: 578px;
+}
+.itog-1-B1_head span{
+    color: #cbcbcb;
+    font-size: 20px;
+    font-family: "Roboto Medium";
+    border-bottom: 1px solid #ff8500;
+}
+.itog-1-B1_body{
+    border-top: 1px solid #7a7a7a;
+}
+.itog-1-B1_body p:first-child{
+    padding-top: 34px;
+    color: #cbcbcb;
+    font-size: 20px;
+    font-family: "Roboto Bold";
+    text-transform: uppercase;
+}
+.itog-1-B1_body p:last-child{
+    color: white;
+    font-size: 26px;
+    font-family: "Roboto Black";
+    text-transform: uppercase;
+}
+.itog-1-B1_form{
+    margin-top: 19px;
+    margin-bottom: 40px;
+    height: 52px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.itog-1-B1_formWrap{
+    width: 497px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+.itog-1-B1_formWrap button{
+    height: 52px;
+    padding: 0 25px 0 29px;
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto Bold";
+    text-transform: uppercase;
+    background-color: #ff8900;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+.itog-1-B1_formWrap button:active,
+.itog-1-B1_formWrap button:hover{
+    box-shadow: 1px 2px 4px red;
+}
+.itog-1-B1_formWrap:active,
+.itog-1-B1_formWrap:hover{
+    box-shadow: 1px 1px 3px red;
+}
+.itog-1-B1_formBlock{
+    width: 408px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.itog-1-B1_form input::placeholder{
+    color: #9c9c9c;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+.itog-1-B1_form input{
+    margin-left: 30px;
+    width: 377px;
+    border-style: none;
+    outline: none;
+}
+.itog-1-B2{
+    margin-top: 36px;
+    width: 209px;
+    margin-left: 115px;
+}
+.itog-1-B3{
+    margin-top: 36px;
+    width: 208px;
+    margin-left: 20px;
+}
+.itog-1-B4{
+    margin-top: 36px;
+    width: 209px;
+    margin-left: 22px;
+}
+.itog-1-ALL_head span{
+    color: #cbcbcb;
+    font-size: 20px;
+    font-family: "Roboto Medium";
+    border-bottom: 1px solid #ff8500;
+}
+.itog-1-ALL_body{
+    border-top: 1px solid #7a7a7a;
+}
+.itog-1-ALL_body li:first-child{
+    padding-top: 34px;
+}
+.itog-1-ALL_body a{
+    color: white;
+    font-size: 13px;
+    font-family: "Roboto Regular";
+}
+.itog-1-ALL_body li{
+    list-style-type: none;
+}
+.itog-1-ALL_body a{
+    text-decoration: none;
+    border-bottom: 2px solid #8f8f8f;
+}
+.itog-1-ALL_body li{
+margin-bottom: 24px;
+}
+
+
+.itog-2{
+    height: 84px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-top: 2px solid #757575;
+}
+.itog-2-label{
+    margin-top: 29px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.itog-2-label img{
+    border-right: 1px solid #787878;
+}
+.itog-2-label p{
+    margin-left: 16px;
+    color: #a0a9b2;
+    font-size: 12px;
+    font-family: "Roboto Regular";
+}
+.itog-2-web{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.itog-2-webElem{
+   width: 49px;
+   height: 49px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #7b8092; 
+}
+.itog-2-webElem + .itog-2-webElem{
+    margin-left: 10px;
+}
+.itog-2-webElem svg{
+    fill:white;
+}
+.itog-2-webElem:hover, .itog-2-webElem svg:hover :not(svg){
+    fill: #ffc925;
+    border: 1px solid #ffc925; 
+}
+.itog-2-data{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.itog-2-data img{
+    border-right: 1px solid #787878;
+    padding-right: 18px;
+
+}
+.itog-2-dataText{
+    margin-left:  18px;
+}
+.itog-2-data p:first-child{
+    color: #a0a9b2;
+    font-size: 12px;
+    font-family: "Roboto Regular";
+
+}
+.itog-2-data p:last-child{
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+
+.thanks{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.thanks-elem{
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: 20px;
+    font-family: "Roboto Bold";
+    color: red;
+}

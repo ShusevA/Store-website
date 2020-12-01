@@ -1,0 +1,124 @@
+
+.panel{
+    width: 1920px;
+    background: #696969;
+}
+.panel-buz{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1360px;
+    margin: 0 auto;
+    background: #696969;
+}
+.panel-elem{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    list-style-type: none;
+    font-family: "Roboto Regular";
+    font-size: 12px;
+}
+.panel-elem-head{
+    text-transform: uppercase;
+}
+.panel-elem li{
+    width: 105px;
+    text-align: center;
+    border-bottom: 2px solid #696969;
+}
+.panel-elem li:first-child{
+    margin-left: -25px;
+}
+.panel-elem a{
+    text-decoration: none;
+    color: #9e9e9e;
+    line-height: 50px;
+    padding: 18px 0;
+}
+.panel-elem-next2{
+    margin-left: -15px;
+}
+.panel-elem-next3{
+    margin-left: -35px;
+}
+
+.panel-elem li:hover{
+    box-sizing: border-box;
+    border-bottom: 2px solid #ffc925;
+}
+.panel-elem a:hover{
+    color: white;
+}
+.panel-elem li:nth-child(2){
+    box-sizing: border-box;
+    border-bottom: 2px solid #ffc925;
+}
+
+.panel-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    background-color: #ff8900;
+    cursor: pointer;
+}
+.panel-button-elem{
+    margin-top: 1px;
+    margin-left: 3px;
+    border-style: none;
+    background-color: #ff8900;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: "Roboto Regular";
+    text-transform: uppercase;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+}
+.panel-button-elem::before{
+    content: url(../img/01.png);
+    margin-right: 9px;
+    vertical-align: middle;
+}
+.panel-button-elem.show::before{
+    content: url(../img/010.png);
+    margin-right: 9px;
+    vertical-align: middle;
+}
+
+
+.EnterShow {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .EnterClose-bloc{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    margin-left: 805px;
+    margin-top: -6px;
+  }
+  .EnterClose{
+    position: relative;
+    width: 35px;
+    height: 1px;
+    background-color: #dadada;
+    transform: rotate(45deg);
+  }
+  .EnterClose::before{
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color: #dadada;
+    transform: rotate(90deg);
+}
