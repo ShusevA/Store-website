@@ -241,7 +241,6 @@ padding-left: 10px;
     color: white;
     background: linear-gradient(to right, #ff8500, #ffae00);
     display: flex;
-    justify-content: center;
     align-items: center;
     cursor: pointer;
 }
@@ -250,8 +249,12 @@ padding-left: 10px;
 }
 .order span{
     margin-top: 2px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
+.order img{
+    margin-left: 25px;
+}
+
 .wrap-8{
     margin-bottom: -3px;
     display: flex;
@@ -262,6 +265,10 @@ padding-left: 10px;
 .wrap-8-block{
     display: flex;
     align-items: center;
+}
+.wrap-8-block img{
+    margin-top: -1px;
+    margin-left: 2px;
 }
 .wrap-8 a{
     margin-left: 10px;
