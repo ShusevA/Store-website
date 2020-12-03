@@ -24,6 +24,7 @@ export default class FormTell extends React.Component {
        }
     }
 
+
     checkPas() {
         if (this.state.password.length >= 4) {
             this.setState({ passwordAll: 1 });
@@ -56,8 +57,9 @@ export default class FormTell extends React.Component {
                         <label htmlFor="" className="formEnter-ladel">Пароль</label>
                         <input className="input-2" type='password' name="password" id="phone" placeholder="*************" onChange={(e) => this.setState({ password: e.target.value })} onBlur={this.checkPas} required />
                         <div className="formEnter-block">
-                            <input className="" type="checkbox" name="" id="" />
-                            <span>Запомнить меня</span>
+                            <input className="true-checkbox" type="checkbox" name="" id="" />
+                            <span className="feyc-checkbox"></span>
+                            <p className="formEnter-block-span">Запомнить меня</p>
                         </div>
                         <div className="formEnter-thint">
                             <a href="">Забыли пароль?</a>
