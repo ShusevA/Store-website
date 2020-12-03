@@ -1,8 +1,6 @@
 import "../../css/selected.css";
 
 import React from "react";
-// import Select from "react-select";
-// import * as optionAll from "../detail/Options"
 
 export default class Selected extends React.Component {
     constructor(props) {
