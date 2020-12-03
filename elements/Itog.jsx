@@ -116,7 +116,7 @@ export default class Itog extends React.Component {
                             </ul>
                         </div>
                         <div className="itog-1-B4">
-                            <div className="itog-1-ALL_head">
+                            <div className="itog-1-ALL_head B4">
                                 <span>Блок ссылок 3</span>
                             </div>
                             <ul className="itog-1-ALL_body">
