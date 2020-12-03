@@ -11,48 +11,53 @@
     flex-flow: row nowrap;
 }
 .itog-1-B1{
-    margin-top: 36px;
+    margin-top: 34px;
     width: 578px;
 }
 .itog-1-B1_head span{
+    padding-bottom: 9px;
     color: #cbcbcb;
     font-size: 20px;
     font-family: "Roboto Medium";
     border-bottom: 1px solid #ff8500;
 }
 .itog-1-B1_body{
+    margin-top: 9px;
     border-top: 1px solid #7a7a7a;
 }
 .itog-1-B1_body p:first-child{
-    padding-top: 34px;
+    padding-top: 29px;
+    margin-left: -1px;
     color: #cbcbcb;
     font-size: 20px;
     font-family: "Roboto Bold";
     text-transform: uppercase;
 }
 .itog-1-B1_body p:last-child{
+    padding-top: 4px;
+    margin-left: -2px;
     color: white;
     font-size: 26px;
     font-family: "Roboto Black";
     text-transform: uppercase;
 }
 .itog-1-B1_form{
-    margin-top: 19px;
+    margin-top: 12px;
     margin-bottom: 40px;
-    height: 52px;
+    height: 49px;
     background-color: white;
     display: flex;
     align-items: center;
 }
 .itog-1-B1_formWrap{
     width: 497px;
-    height: 51px;
+    height: 48px;
     display: flex;
     align-items: center;
 }
 .itog-1-B1_formWrap button{
-    height: 52px;
-    padding: 0 25px 0 29px;
+    height: 49px;
+    padding: 0 30px 0 25px;
     color: white;
     font-size: 16px;
     font-family: "Roboto Bold";
@@ -72,7 +77,7 @@
 }
 .itog-1-B1_formBlock{
     width: 408px;
-    height: 52px;
+    height: 49px;
     display: flex;
     align-items: center;
 }
@@ -82,37 +87,42 @@
     font-family: "Roboto Regular";
 }
 .itog-1-B1_form input{
-    margin-left: 30px;
-    width: 377px;
+    margin-left: 28px;
+    width: 378px;
     border-style: none;
     outline: none;
 }
 .itog-1-B2{
-    margin-top: 36px;
+    margin-top: 33px;
     width: 209px;
-    margin-left: 115px;
+    margin-left: 113px; 
 }
 .itog-1-B3{
-    margin-top: 36px;
+    margin-top: 33px;
     width: 208px;
-    margin-left: 20px;
+    margin-left: 19px;
 }
 .itog-1-B4{
-    margin-top: 36px;
+    margin-top: 33px;
     width: 209px;
     margin-left: 22px;
 }
+.B4{
+    margin-left: 2px;
+}
 .itog-1-ALL_head span{
+    padding-bottom: 10px;
     color: #cbcbcb;
     font-size: 20px;
     font-family: "Roboto Medium";
     border-bottom: 1px solid #ff8500;
 }
 .itog-1-ALL_body{
+    margin-top: 10px;
     border-top: 1px solid #7a7a7a;
 }
 .itog-1-ALL_body li:first-child{
-    padding-top: 34px;
+    padding-top: 28px;
 }
 .itog-1-ALL_body a{
     color: white;
@@ -122,14 +132,10 @@
 .itog-1-ALL_body li{
     list-style-type: none;
 }
-.itog-1-ALL_body a{
-    text-decoration: none;
-    border-bottom: 2px solid #8f8f8f;
-}
 .itog-1-ALL_body li{
-margin-bottom: 24px;
+margin-bottom: 17px;
+margin-left: 2px;
 }
-
 
 .itog-2{
     height: 84px;
@@ -139,16 +145,18 @@ margin-bottom: 24px;
     border-top: 2px solid #757575;
 }
 .itog-2-label{
-    margin-top: 29px;
+    margin-top: 14px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
 }
 .itog-2-label img{
+    padding-top: 3px;
+    padding-left: 1px;
     border-right: 1px solid #787878;
 }
 .itog-2-label p{
-    margin-left: 16px;
+    margin-left: 15px;
     color: #a0a9b2;
     font-size: 12px;
     font-family: "Roboto Regular";
@@ -157,6 +165,8 @@ margin-bottom: 24px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    margin-right: 24px;
+    margin-top: 17px;
 }
 .itog-2-webElem{
    width: 49px;
