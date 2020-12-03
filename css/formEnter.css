@@ -51,8 +51,36 @@
     display: flex;
     align-items: center;
 }
-.formEnter-form span{
-    margin-left: 2px;
+
+
+.feyc-checkbox{
+    width: 16px;
+    height: 16px;
+    background-color: #dbdbdb; 
+    border: 0.5px solid darkgrey; 
+    position: relative;
+}
+.true-checkbox{
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;    
+    }
+.true-checkbox:checked + .feyc-checkbox::before{
+    content: "\2714";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.true-checkbox:checked + .feyc-checkbox{
+    background-color: #3b5998;
+}
+
+
+.formEnter-block-span{
+    margin-left: 10px;    
     color: #3b3b3b;
     font-size: 14px;
     font-family: "Roboto Regular";
